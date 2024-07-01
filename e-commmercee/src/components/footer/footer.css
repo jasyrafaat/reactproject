@@ -1,0 +1,28 @@
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ccc;
+    padding: 50px;
+}
+.footer-content img{
+    width: 80px;
+    height: 80px;
+}
+.footer-content .icons{
+display: flex;
+gap: 20px;
+}
+.footer-content .f-icon{
+    font-size: 22px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #000;
+}
+.footer-content .f-icon:hover{
+    background-color: orangered;
+    color: #fff;
+    transition: 0.5s;
+}

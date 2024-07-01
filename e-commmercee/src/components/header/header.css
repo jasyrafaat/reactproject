@@ -1,0 +1,75 @@
+.header{
+    background-color: #ccc;
+    padding-top: 3px;
+}
+.Typewriter{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.header-content .header-left > *{
+    margin-top: 20px;
+}
+.header-content .header-left h2 {
+    font-size: 50px;
+    display: block;
+    line-height: 1.5;
+}
+.header-content .header-left h2 span{
+    display: block;
+    
+}
+.header-content .header-left h3{
+    font-size: 30px;
+}
+.header-content .header-left button{
+    padding: 20px;
+    font-size: 18px;
+    width: 150px;
+    /* الشفافه */
+    background-color: transparent;
+    border: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-content .header-left button:hover{
+    background-color: orangered;
+    color: #fff;
+}
+.header-content .header-right img{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width : 450px){
+   
+    .Typewriter{
+        color: orangered;
+        font-size: 16px;
+    
+    }
+    .header-content{
+        flex-direction: column;
+    }
+    .header-content .header-left h2 {
+        font-size: 30px;
+    }
+    .header-content .header-left h3{
+        font-size: 25px;
+    }
+    .header-content .header-right img{
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    
+}
